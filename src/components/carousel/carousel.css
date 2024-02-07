@@ -1,0 +1,27 @@
+.btnTurn {
+  position: absolute;
+  transition: background-color 0.4s linear, color 0.4s ease;
+  width: 100px;
+  background-color: dodgerblue;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 20px;
+  top: 50%;
+  box-shadow: 10px 10px 30px;
+}
+
+.btnTurn:hover {
+  background-color: chartreuse;
+  color: black;
+  box-shadow: 15px 15px 40px;
+}
+
+.Right {
+  right: calc(50% - 490px);
+}
+.left {
+  right: calc(50% + 390px);
+}
